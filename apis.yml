@@ -1,0 +1,96 @@
+name: Brocade
+description: APIs for Brocade networking and data center solutions
+image: https://www.brocade.com/content/dam/common/images/brocade-logo.png
+created: '2024'
+modified: '2024'
+specificationVersion: '0.18'
+tags:
+- networking
+- data center
+- storage
+- switches
+- routers
+- SDN
+- network automation
+apis:
+- name: Brocade Workflow Composer API
+  description: REST API for network automation and orchestration workflows
+  image: https://www.brocade.com/content/dam/common/images/brocade-logo.png
+  humanURL: https://docs.brocade.com/
+  baseURL: https://api.brocade.com/v1
+  tags:
+  - automation
+  - workflow
+  - orchestration
+  properties:
+  - type: Documentation
+    url: https://docs.brocade.com/workflow-composer/api
+  - type: OpenAPI
+    url: https://api.brocade.com/openapi/workflow-composer.json
+  - type: Authentication
+    url: https://docs.brocade.com/authentication
+- name: Brocade Fabric Manager API
+  description: REST API for managing Fibre Channel SAN fabrics
+  image: https://www.brocade.com/content/dam/common/images/brocade-logo.png
+  humanURL: https://www.brocade.com/products/fabric-manager
+  baseURL: https://api.brocade.com/fabric/v1
+  tags:
+  - fabric
+  - SAN
+  - fibre channel
+  - storage
+  properties:
+  - type: Documentation
+    url: https://docs.brocade.com/fabric-manager/api
+  - type: OpenAPI
+    url: https://api.brocade.com/openapi/fabric-manager.json
+- name: Brocade Network Advisor API
+  description: REST API for network monitoring and management
+  image: https://www.brocade.com/content/dam/common/images/brocade-logo.png
+  humanURL: https://www.brocade.com/products/network-advisor
+  baseURL: https://api.brocade.com/network-advisor/v2
+  tags:
+  - monitoring
+  - management
+  - analytics
+  properties:
+  - type: Documentation
+    url: https://docs.brocade.com/network-advisor/api
+  - type: OpenAPI
+    url: https://api.brocade.com/openapi/network-advisor.json
+- name: Brocade VCS Fabric API
+  description: REST API for Virtual Cluster Switching fabric configuration
+  image: https://www.brocade.com/content/dam/common/images/brocade-logo.png
+  humanURL: https://www.brocade.com/products/vcs-fabric
+  baseURL: https://api.brocade.com/vcs/v1
+  tags:
+  - VCS
+  - virtual
+  - switching
+  - fabric
+  properties:
+  - type: Documentation
+    url: https://docs.brocade.com/vcs-fabric/api
+  - type: OpenAPI
+    url: https://api.brocade.com/openapi/vcs-fabric.json
+common:
+- type: Portal
+  url: https://developer.brocade.com
+- type: SignUp
+  url: https://developer.brocade.com/signup
+- type: Login
+  url: https://developer.brocade.com/login
+- type: Support
+  url: https://www.brocade.com/support
+- type: TermsOfService
+  url: https://www.brocade.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.brocade.com/legal/privacy
+- type: Blog
+  url: https://blog.brocade.com
+- type: Github
+  url: https://github.com/brocade
+maintainers:
+- FN: Brocade Developer Relations
+  email: developer@brocade.com
+  url: https://developer.brocade.com
