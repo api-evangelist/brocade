@@ -10,14 +10,14 @@ created: '2024-01-01'
 modified: '2026-03-04'
 specificationVersion: '0.18'
 tags:
-  - Fibre Channel
-  - Storage Area Networks
-  - SAN
-  - Networking
   - Data Center
-  - Switches
   - Directors
+  - Fibre Channel
   - Network Automation
+  - Networking
+  - SAN
+  - Storage Area Networks
+  - Switches
 apis:
   - name: Brocade Fabric OS REST API
     description: >-
@@ -30,11 +30,11 @@ apis:
     humanURL: https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x.html
     baseURL: https://{switch-ip}/rest
     tags:
+      - Fabric OS
       - Fibre Channel
+      - Network Management
       - SAN
       - Switches
-      - Fabric OS
-      - Network Management
     properties:
       - type: Documentation
         url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x.html
@@ -58,11 +58,11 @@ apis:
     humanURL: https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x.html
     baseURL: https://{sannav-host}/external-api/v1
     tags:
-      - SAN Management
+      - Discovery
       - Fibre Channel
       - Monitoring
+      - SAN Management
       - Zoning
-      - Discovery
     properties:
       - type: Documentation
         url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x.html
@@ -81,11 +81,11 @@ apis:
     humanURL: https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api-and-nb-streaming/2-3-0x.html
     baseURL: https://{sannav-host}/external-api/v1/stream
     tags:
+      - Events
+      - Monitoring
+      - SAN Management
       - Streaming
       - Telemetry
-      - Events
-      - SAN Management
-      - Monitoring
     properties:
       - type: Documentation
         url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api-and-nb-streaming/2-3-0x.html
@@ -101,10 +101,10 @@ apis:
     humanURL: https://docs.broadcom.com/doc/12395099
     baseURL: https://{bna-host}/rest
     tags:
-      - SAN Management
-      - Monitoring
       - Analytics
       - Deprecated
+      - Monitoring
+      - SAN Management
     properties:
       - type: Documentation
         url: https://docs.broadcom.com/doc/12395099
@@ -121,9 +121,9 @@ apis:
     baseURL: https://{bwc-host}/api/v1
     tags:
       - Automation
-      - Workflow
-      - Orchestration
       - Deprecated
+      - Orchestration
+      - Workflow
     properties:
       - type: Documentation
         url: https://bwc-docs.brocade.com/
@@ -138,10 +138,10 @@ apis:
     humanURL: https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products
     baseURL: https://{switch-ip}/rest
     tags:
-      - VCS
-      - Switching
-      - Fabric
       - Deprecated
+      - Fabric
+      - Switching
+      - VCS
     properties:
       - type: Documentation
         url: https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products
