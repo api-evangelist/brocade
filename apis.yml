@@ -42,7 +42,7 @@ apis:
         url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/10-0-x.html
       - type: Authentication
         url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x/v26395730/v24190001.html
-      - type: Getting Started
+      - type: GettingStarted
         url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x/v26395730/v24190001.html
       - type: SDKs
         url: https://github.com/brocade/pyfos
@@ -68,7 +68,7 @@ apis:
         url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x.html
       - type: Reference
         url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x/SANnav-Overview.html
-      - type: Getting Started
+      - type: GettingStarted
         url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x/SANnav-Overview.html
   - name: Brocade SANnav Northbound Streaming API
     description: >-
@@ -152,29 +152,29 @@ common:
     url: https://techdocs.broadcom.com/us/en/fibre-channel-networking.html
   - type: Documentation
     url: https://techdocs.broadcom.com/us/en/fibre-channel-networking.html
-  - type: Getting Started
+  - type: GettingStarted
     url: https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x/v26395730/v24190001.html
   - type: Support
     url: https://www.broadcom.com/support/fibre-channel-networking
   - type: Website
     url: https://www.broadcom.com/products/fibre-channel-networking
-  - type: Sign Up
+  - type: SignUp
     url: https://www.broadcom.com/support/fibre-channel-networking
   - type: Login
     url: https://www.broadcom.com/support/fibre-channel-networking
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.broadcom.com/company/legal/terms-of-use
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.broadcom.com/company/legal/privacy/policy
   - type: Community
     url: https://community.broadcom.com/t5/Fibre-Channel-SAN-Forums/bd-p/fibre
   - type: Blog
     url: https://community.broadcom.com/landingpage/brocade-community
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/brocade
   - type: SDKs
     url: https://github.com/brocade/pyfos
-  - type: Change Log
+  - type: ChangeLog
     url: https://www.broadcom.com/support/fibre-channel-networking/eol
 maintainers:
   - FN: Kin Lane
