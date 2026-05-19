@@ -148,6 +148,8 @@ apis:
       - type: Deprecation Notice
         url: https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/brocade
   - type: Portal
     url: https://techdocs.broadcom.com/us/en/fibre-channel-networking.html
   - type: Documentation
