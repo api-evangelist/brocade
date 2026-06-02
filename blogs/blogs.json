@@ -2,13 +2,13 @@
   "repo": "brocade",
   "feeds": [
     {
-      "source": "https://community.broadcom.com/landingpage/brocade-community",
-      "feed_url": "",
+      "source": "https://community.broadcom.com/t5/Fibre-Channel-SAN-Forums/bd-p/fibre",
+      "feed_url": "https://community.broadcom.com/t5/Fibre-Channel-SAN-Forums/bd-p/fibre",
       "title": "",
       "saved": 0,
-      "error": "no_feed"
+      "method": "none"
     }
   ],
-  "fetched": "2026-05-17T20:48:52Z",
+  "fetched": "2026-06-01T23:35:02Z",
   "post_count": 0
 }
