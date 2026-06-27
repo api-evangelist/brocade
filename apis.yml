@@ -161,7 +161,7 @@ common:
     url: https://www.broadcom.com/support/fibre-channel-networking
   - type: Website
     url: https://www.broadcom.com/products/fibre-channel-networking
-  - type: SignUp
+  - type: Signup
     url: https://www.broadcom.com/support/fibre-channel-networking
   - type: Login
     url: https://www.broadcom.com/support/fibre-channel-networking
