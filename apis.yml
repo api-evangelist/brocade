@@ -149,6 +149,10 @@ apis:
       - type: Deprecation Notice
         url: https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products
 common:
+  - type: DomainSecurity
+    url: security/brocade-domain-security.yml
+  - type: Authentication
+    url: authentication/brocade-authentication.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/brocade
   - type: Portal
