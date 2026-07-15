@@ -149,6 +149,8 @@ apis:
       - type: Deprecation Notice
         url: https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products
 common:
+  - type: AgenticAccess
+    url: agentic-access/brocade-agentic-access.yml
   - type: DomainSecurity
     url: security/brocade-domain-security.yml
   - type: Authentication
