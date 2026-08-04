@@ -1,0 +1,24 @@
+{
+  "provider": "brocade",
+  "sources": [
+    "brocade-chassis-api-openapi.yml",
+    "brocade-interfaces-api-openapi.yml",
+    "brocade-operations-api-openapi.yml",
+    "brocade-session-api-openapi.yml",
+    "brocade-switch-api-openapi.yml",
+    "brocade-zoning-api-openapi.yml"
+  ],
+  "outputs": [
+    "brocade-chassis-api-openapi.yml",
+    "brocade-interfaces-api-openapi.yml",
+    "brocade-operations-api-openapi.yml",
+    "brocade-session-api-openapi.yml",
+    "brocade-switch-api-openapi.yml",
+    "brocade-zoning-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "skipped": []
+}
