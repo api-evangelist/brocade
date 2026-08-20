@@ -23,6 +23,16 @@ created: '2024-01-01'
 modified: '2026-04-21'
 specificationVersion: '0.23'
 tags:
+  - Data-Center
+  - Directors
+  - Fibre Channel
+  - Network Automation
+  - Networking
+  - SAN
+  - Storage Area Networks
+  - Switches
+  - Fortune 1000
+tags_raw:
   - Data Center
   - Directors
   - Fibre Channel
@@ -101,6 +111,12 @@ apis:
     https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api-and-nb-streaming/2-3-0x.html
   baseURL: https://{sannav-host}/external-api/v1/stream
   tags:
+  - Event
+  - Monitoring
+  - SAN Management
+  - Streaming
+  - Telemetry
+  tags_raw:
   - Events
   - Monitoring
   - SAN Management
@@ -143,6 +159,11 @@ apis:
   - Automation
   - Deprecated
   - Orchestration
+  - Workflows
+  tags_raw:
+  - Automation
+  - Deprecated
+  - Orchestration
   - Workflow
   properties:
   - type: Documentation
@@ -156,6 +177,11 @@ apis:
   humanURL: https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products
   baseURL: https://{switch-ip}/rest
   tags:
+  - Deprecated
+  - Fabric
+  - Switching
+  - vcs
+  tags_raw:
   - Deprecated
   - Fabric
   - Switching
@@ -193,7 +219,8 @@ apis:
   humanURL: >-
     https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x.html
   baseURL: https://{switch-ip}/rest
-  tags:
+  tags: []
+  tags_raw:
   - Operations
   properties:
   - type: OpenAPI
