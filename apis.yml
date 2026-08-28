@@ -2,6 +2,18 @@ name: Brocade
 description: Brocade, now part of Broadcom, provides Fibre Channel networking solutions for storage area networks
   (SANs). The Brocade portfolio includes SAN switches, directors, Fabric OS software, and the SANnav management
   platform, all offering REST APIs for programmable management and automation of SAN infrastructure.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - openapi
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: self-serve
@@ -232,6 +244,9 @@ apis:
   - type: OpenAPI
     url: openapi/brocade-zoning-api-openapi.yml
 common:
+- type: CapabilityMap
+  url: capabilities/brocade-capability-edges.yml
+  name: Brocade Business Capability Map
 - type: ParentCompany
   url: https://apis.io/providers/broadcom/
   name: Broadcom
