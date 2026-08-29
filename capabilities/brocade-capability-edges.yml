@@ -3,8 +3,7 @@ provider: Brocade
 generated_by: planning/capability-mapping/scripts/classify_capabilities.py
 model: claude-opus-5
 frame:
-- Banking & Capital Markets
-- Software & Technology
+- Telecommunications
 min_confidence: 0.7
 capability_model:
   source: https://github.com/vincentmakes/turbo-ea-capabilities
@@ -12,52 +11,46 @@ capability_model:
   attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
     CC BY 4.0
   notice: NOTICE
-edge_count: 5
+edge_count: 4
 edges:
 - tag: Chassis
   spec_file: brocade-chassis-api-openapi.yml
   capability_id: BC-600.50
   capability_id_l1: BC-600
   capability_name: IT Infrastructure Management
-  confidence: 0.85
-  evidence: GET /running/brocade-chassis/chassis  getChassis  Get chassis configuration; PATCH ... Update
-    chassis configuration
-  reason: Configuration of SAN switch chassis hardware — network/storage infrastructure device management.
+  confidence: 0.75
+  evidence: GET /running/brocade-chassis/chassis — Get chassis configuration; PATCH — Update chassis configuration
+  reason: Configuration management of SAN switch chassis hardware via Fabric OS RESTCONF. This is enterprise
+    storage/network infrastructure administration (IT Infrastructure Management), not carrier network
+    operations — the vendor sells datacentre Fibre Channel gear.
 - tag: Interfaces
   spec_file: brocade-interfaces-api-openapi.yml
   capability_id: BC-600.50
   capability_id_l1: BC-600
   capability_name: IT Infrastructure Management
-  confidence: 0.85
-  evidence: GET /running/brocade-interface/fibrechannel  getFcInterfaces  List Fibre Channel interfaces
-  reason: Listing and monitoring Fibre Channel ports/interfaces on SAN switches is network and storage
-    infrastructure management.
-- tag: Switch
-  spec_file: brocade-switch-api-openapi.yml
-  capability_id: BC-600.50
-  capability_id_l1: BC-600
-  capability_name: IT Infrastructure Management
-  confidence: 0.78
-  evidence: GET /running/brocade-fibrechannel-switch/fibrechannel-switch Get Fibre Channel switch attributes
-  reason: Read and update of Fibre Channel switch attributes is management of network/storage infrastructure
-    devices, mapping to IT Infrastructure Management.
+  confidence: 0.7
+  evidence: GET /running/brocade-interface/fibrechannel — List Fibre Channel interfaces; GET .../fibrechannel-statistics
+    — Get Fibre Channel interface statistics
+  reason: Inventory and performance statistics of Fibre Channel ports on SAN switches — datacentre network/storage
+    infrastructure management. Could equally be read as IT operations monitoring, hence 0.7.
 - tag: Operations
   spec_file: brocade-operations-api-openapi.yml
   capability_id: BC-600.50
   capability_id_l1: BC-600
   capability_name: IT Infrastructure Management
-  confidence: 0.72
-  evidence: POST /operations/configupload configUpload Upload device configuration; POST /operations/zone
-    Run zoning operation — "managing Brocade SAN switches"
-  reason: Operations here are device-level configuration upload/download and zoning actions on SAN switches
-    — network/storage infrastructure administration, i.e. IT Infrastructure Management. Not a business
-    'operations' capability.
-- tag: Zoning
-  spec_file: brocade-zoning-api-openapi.yml
+  confidence: 0.7
+  evidence: POST /operations/zone — Run zoning operation; POST /operations/configupload — Upload device
+    configuration; POST /operations/configdownload — Download configuration to device
+  reason: Executes SAN zoning and device configuration upload/download on Fabric OS switches — administration
+    of storage-network infrastructure. Mapped to IT Infrastructure Management rather than telecom network
+    configuration since this is datacentre SAN equipment.
+- tag: Switch
+  spec_file: brocade-switch-api-openapi.yml
   capability_id: BC-600.50
   capability_id_l1: BC-600
   capability_name: IT Infrastructure Management
   confidence: 0.7
-  evidence: GET /running/brocade-zone/defined-configuration Get defined zoning configuration
-  reason: SAN fabric zoning configuration is storage-network infrastructure configuration, not a business
-    zoning/territory concept; maps to IT Infrastructure Management.
+  evidence: GET /running/brocade-fibrechannel-switch/fibrechannel-switch  Get Fibre Channel switch attributes;
+    PATCH ... Update Fibre Channel switch attributes
+  reason: Managing configuration attributes of SAN switch hardware in a data centre — enterprise IT infrastructure
+    (network/storage) management, not telecom carrier network operations.
