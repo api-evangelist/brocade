@@ -241,6 +241,8 @@ apis:
     https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x.html
   baseURL: https://{switch-ip}/rest
   tags:
+  - Sessions
+  tags_raw:
   - Session
   properties:
   - type: OpenAPI
