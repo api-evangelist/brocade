@@ -11,7 +11,7 @@ capability_model:
   attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
     CC BY 4.0
   notice: NOTICE
-edge_count: 4
+edge_count: 5
 edges:
 - tag: Chassis
   spec_file: brocade-chassis-api-openapi.yml
@@ -54,3 +54,13 @@ edges:
     PATCH ... Update Fibre Channel switch attributes
   reason: Managing configuration attributes of SAN switch hardware in a data centre — enterprise IT infrastructure
     (network/storage) management, not telecom carrier network operations.
+- tag: Zoning
+  spec_file: brocade-zoning-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: GET /running/brocade-zone/defined-configuration Get defined zoning configuration
+  reason: SAN fabric zoning configuration is storage-network infrastructure configuration, not a business
+    zoning/territory concept; maps to IT Infrastructure Management.
+  recovered_from: capability-edges-sweep.json
