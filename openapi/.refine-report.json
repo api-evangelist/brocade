@@ -1,12 +1,7 @@
 {
   "provider": "brocade",
   "sources": [
-    "brocade-chassis-api-openapi.yml",
-    "brocade-interfaces-api-openapi.yml",
-    "brocade-operations-api-openapi.yml",
-    "brocade-session-api-openapi.yml",
-    "brocade-switch-api-openapi.yml",
-    "brocade-zoning-api-openapi.yml"
+    "_original/brocade-openapi.yml"
   ],
   "outputs": [
     "brocade-chassis-api-openapi.yml",
@@ -19,6 +14,17 @@
   "archived": [],
   "errors": [],
   "warnings": [],
-  "notes": [],
-  "skipped": []
+  "notes": [
+    "sourced from openapi/_original/ (1 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "brocade-openapi.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: already-registered"
+  ],
+  "skipped": [
+    "brocade-chassis-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "brocade-interfaces-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "brocade-operations-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "brocade-session-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "brocade-switch-api-openapi.yml: previously refined output, superseded by openapi/_original/",
+    "brocade-zoning-api-openapi.yml: previously refined output, superseded by openapi/_original/"
+  ]
 }
