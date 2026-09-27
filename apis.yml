@@ -32,7 +32,7 @@ created: '2024-01-01'
 modified: '2026-08-21'
 specificationVersion: '0.23'
 tags:
-- Data-Center
+- Data Center
 - Directors
 - Fibre Channel
 - Network Automation
@@ -51,6 +51,7 @@ tags_raw:
 - Storage Area Networks
 - Switches
 - Fortune 1000
+- Data-Center
 apis:
 - name: Brocade Fabric OS REST API
   description: >-
