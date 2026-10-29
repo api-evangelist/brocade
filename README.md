@@ -1,4 +1,4 @@
-# Brocade (brocade)
+# Brocade
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,178 +66,150 @@
 
 Brocade, now part of Broadcom, provides Fibre Channel networking solutions for storage area networks (SANs). The Brocade portfolio includes SAN switches, directors, Fabric OS software, and the SANnav management platform, all offering REST APIs for programmable management and automation of SAN infrastructure.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/apis.yml)
+**Areas:** Data Center · Directors · Fibre Channel · Network Automation · Networking · SAN · Storage Area Networks · Switches · Fortune 1000
 
-## Tags
+## Brocade on APIs.io
 
-- Data Center
-- Directors
-- Fibre Channel
-- Network Automation
-- Networking
-- SAN
-- Storage Area Networks
-- Switches
+Everything profiled for Brocade is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/brocade/](https://apis.io/providers/brocade/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (12)
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-21
+- [Brocade Fabric OS REST API](https://apis.io/apis/brocade/brocade-fabric-os-rest-api/) — The Brocade Fabric OS REST API provides a programmable web-service interface for managing Brocade SAN switches across a fabric. It supports YANG-based…
+- [Brocade SANnav Management Portal REST API](https://apis.io/apis/brocade/brocade-sannav-management-portal-rest-api/) — The Brocade SANnav Management Portal REST API provides a programmable web-service interface for accessing and managing the SANnav Management Portal server.…
+- [Brocade SANnav Northbound Streaming API](https://apis.io/apis/brocade/brocade-sannav-northbound-streaming-api/) — The Brocade SANnav Northbound Streaming API enables real-time streaming of SAN telemetry and event data from the SANnav Management Portal to external…
+- [Brocade Network Advisor REST API](https://apis.io/apis/brocade/brocade-network-advisor-rest-api/) — The Brocade Network Advisor REST API provided a web-services interface for configuring and monitoring Brocade SAN switches, including fabric management,…
+- [Brocade Workflow Composer API](https://apis.io/apis/brocade/brocade-workflow-composer-api/) — The Brocade Workflow Composer was a network automation platform based on StackStorm for event-driven automation and orchestration workflows. The product was…
+- [Brocade VCS Fabric API](https://apis.io/apis/brocade/brocade-vcs-fabric-api/) — The Brocade VCS Fabric API provided REST interfaces for Virtual Cluster Switching fabric configuration on Brocade VDX switches. The VCS Fabric product line…
+- [Brocade Chassis API](https://apis.io/apis/brocade/brocade-chassis-api/) — The Chassis API from Brocade — 1 operation(s) for chassis.
+- [Brocade Interfaces API](https://apis.io/apis/brocade/brocade-interfaces-api/) — The Interfaces API from Brocade — 2 operation(s) for interfaces.
+- [Brocade Operations API](https://apis.io/apis/brocade/brocade-operations-api/) — The Operations API from Brocade — 4 operation(s) for operations.
+- [Brocade Session API](https://apis.io/apis/brocade/brocade-session-api/) — The Session API from Brocade — 2 operation(s) for session.
+- [Brocade Switch API](https://apis.io/apis/brocade/brocade-switch-api/) — The Switch API from Brocade — 1 operation(s) for switch.
+- [Brocade Zoning API](https://apis.io/apis/brocade/brocade-zoning-api/) — The Zoning API from Brocade — 2 operation(s) for zoning.
 
-## APIs
+### Published properties
 
-### Brocade Fabric OS REST API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-The Brocade Fabric OS REST API provides a programmable web-service interface for managing Brocade SAN switches across a fabric. It supports YANG-based modules for configuring and monitoring switch resources including chassis, ports, zoning, security, logging, MAPS, and Fibre Channel features. Supported on Fabric OS 8.2.0 and later.
+#### Agentic access (1)
 
-- **Human URL:** [https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x.html](https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x.html)
-- **Base URL:** `https://{switch-ip}/rest`
+Which operations an agent can call, which act, and which need a human in the loop.
 
-#### Tags
+- [Brocade Agentic Access](https://apis.io/agentic-access/brocade/brocade-agentic-access/)
 
-- Fabric OS
-- Fibre Channel
-- Network Management
-- SAN
-- Switches
+#### Collections (7)
 
-#### Properties
+Postman and Open Collection request collections.
 
-- [Documentation](https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x.html)
-- [Reference](https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/10-0-x.html)
-- [Authentication](https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x/v26395730/v24190001.html)
-- [Getting Started](https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x/v26395730/v24190001.html)
-- [S D Ks](https://github.com/brocade/pyfos)
-- [Postman Collection](collections/brocade.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/brocade.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+- [Brocade Fabric OS REST API](https://apis.io/collections/brocade/open-brocade/)
+- [Brocade Fabric OS REST Chassis API](https://apis.io/collections/brocade/open-brocade-chassis-api/)
+- [Brocade Fabric OS REST Chassis Interfaces API](https://apis.io/collections/brocade/open-brocade-interfaces-api/)
+- [Brocade Fabric OS REST Chassis Operations API](https://apis.io/collections/brocade/open-brocade-operations-api/)
+- [Brocade Fabric OS REST Chassis Session API](https://apis.io/collections/brocade/open-brocade-session-api/)
+- [Brocade Fabric OS REST Chassis Switch API](https://apis.io/collections/brocade/open-brocade-switch-api/)
+- [Brocade Fabric OS REST Chassis Zoning API](https://apis.io/collections/brocade/open-brocade-zoning-api/)
 
-### Brocade SANnav Management Portal REST API
+#### Overlays (6)
 
-The Brocade SANnav Management Portal REST API provides a programmable web-service interface for accessing and managing the SANnav Management Portal server. REST API services include Login, Discovery, FCR, Fault, Inventory, Health Summary, User Management, RBAC, Zoning, and Proxy to Fabric OS REST API. SANnav is the successor to Brocade Network Advisor for SAN management.
+OpenAPI overlays, including conversational phrasing for each operation.
 
-- **Human URL:** [https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x.html](https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x.html)
-- **Base URL:** `https://{sannav-host}/external-api/v1`
+- [Brocade Communications Systems Chassis Api Overlay](https://apis.io/overlays/brocade/brocade-communications-systems-chassis-api-overlay/)
+- [Brocade Communications Systems Interfaces Api Overlay](https://apis.io/overlays/brocade/brocade-communications-systems-interfaces-api-overlay/)
+- [Brocade Communications Systems Operations Api Overlay](https://apis.io/overlays/brocade/brocade-communications-systems-operations-api-overlay/)
+- [Brocade Communications Systems Session Api Overlay](https://apis.io/overlays/brocade/brocade-communications-systems-session-api-overlay/)
+- [Brocade Communications Systems Switch Api Overlay](https://apis.io/overlays/brocade/brocade-communications-systems-switch-api-overlay/)
+- [Brocade Communications Systems Zoning Api Overlay](https://apis.io/overlays/brocade/brocade-communications-systems-zoning-api-overlay/)
 
-#### Tags
+#### Security (2)
 
-- Discovery
-- Fibre Channel
-- Monitoring
-- SAN Management
-- Zoning
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Properties
+- [Brocade Authentication](https://apis.io/security/brocade/brocade-authentication/)
+- [Brocade Domain Security](https://apis.io/security/brocade/brocade-domain-security/)
 
-- [Documentation](https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x.html)
-- [Reference](https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x/SANnav-Overview.html)
-- [Getting Started](https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/3-0-0x/SANnav-Overview.html)
-- [Postman Collection](collections/brocade.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/brocade.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+#### Plans and pricing (1)
 
-### Brocade SANnav Northbound Streaming API
+Published plans, tiers and prices.
 
-The Brocade SANnav Northbound Streaming API enables real-time streaming of SAN telemetry and event data from the SANnav Management Portal to external systems. It provides northbound streaming of fault events, performance metrics, and inventory changes for integration with third-party monitoring and analytics platforms.
+- [Brocade Plans Pricing](https://apis.io/plans/brocade/brocade-plans-pricing/)
 
-- **Human URL:** [https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api-and-nb-streaming/2-3-0x.html](https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api-and-nb-streaming/2-3-0x.html)
-- **Base URL:** `https://{sannav-host}/external-api/v1/stream`
+#### Rate limits (1)
 
-#### Tags
+Published request limits.
 
-- Events
-- Monitoring
-- SAN Management
-- Streaming
-- Telemetry
+- [Brocade Rate Limits](https://apis.io/rate-limits/brocade/brocade-rate-limits/)
 
-#### Properties
+#### FinOps (1)
 
-- [Documentation](https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api-and-nb-streaming/2-3-0x.html)
-- [Reference](https://techdocs.broadcom.com/us/en/fibre-channel-networking/sannav/management-portal-rest-api/2-4-0x/Resources-REST-API/Stream-REST-API/GET--external-api-v1-stream-servers-REST-API.html)
-- [Postman Collection](collections/brocade.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/brocade.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
+What the API costs to run, by operation.
 
-### Brocade Network Advisor REST API
+- [Brocade Finops](https://apis.io/finops/brocade/brocade-finops/)
 
-The Brocade Network Advisor REST API provided a web-services interface for configuring and monitoring Brocade SAN switches, including fabric management, topology, zoning, and performance data retrieval. Network Advisor reached end of life in March 2019 and has been replaced by SANnav Management Portal.
+## Where to find this API
 
-- **Human URL:** [https://docs.broadcom.com/doc/12395099](https://docs.broadcom.com/doc/12395099)
-- **Base URL:** `https://{bna-host}/rest`
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-#### Tags
-
-- Analytics
-- Deprecated
-- Monitoring
-- SAN Management
-
-#### Properties
-
-- [Documentation](https://docs.broadcom.com/doc/12395099)
-- [Deprecation  Notice](https://docs.broadcom.com/doc/12395099)
-- [Postman Collection](collections/brocade.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/brocade.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Brocade Workflow Composer API
-
-The Brocade Workflow Composer was a network automation platform based on StackStorm for event-driven automation and orchestration workflows. The product was transferred to Extreme Networks as part of the IP networking business acquisition and is now known as Extreme Workflow Composer.
-
-- **Human URL:** [https://bwc-docs.brocade.com/](https://bwc-docs.brocade.com/)
-- **Base URL:** `https://{bwc-host}/api/v1`
-
-#### Tags
-
-- Automation
-- Deprecated
-- Orchestration
-- Workflow
-
-#### Properties
-
-- [Documentation](https://bwc-docs.brocade.com/)
-- [Postman Collection](collections/brocade.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/brocade.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-### Brocade VCS Fabric API
-
-The Brocade VCS Fabric API provided REST interfaces for Virtual Cluster Switching fabric configuration on Brocade VDX switches. The VCS Fabric product line was transferred to Extreme Networks as part of the data center networking business acquisition and is no longer part of the Broadcom Brocade portfolio.
-
-- **Human URL:** [https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products](https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products)
-- **Base URL:** `https://{switch-ip}/rest`
-
-#### Tags
-
-- Deprecated
-- Fabric
-- Switching
-- VCS
-
-#### Properties
-
-- [Documentation](https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products)
-- [Deprecation  Notice](https://www.extremenetworks.com/support/end-of-sale-and-end-of-support-products)
-- [Postman Collection](collections/brocade.postman_collection.json) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
-- [Open Collection](collections/brocade.opencollection.json) — [Open Collection 1.0](https://schema.opencollection.com/opencollection/v1.0.0.json)
-
-## Common Properties
-
-- [LinkedIn](https://www.linkedin.com/company/brocade)
-- [Portal](https://techdocs.broadcom.com/us/en/fibre-channel-networking.html)
-- [Documentation](https://techdocs.broadcom.com/us/en/fibre-channel-networking.html)
-- [Getting Started](https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x/v26395730/v24190001.html)
-- [Support](https://www.broadcom.com/support/fibre-channel-networking)
 - [Website](https://www.broadcom.com/products/fibre-channel-networking)
-- [Sign Up](https://www.broadcom.com/support/fibre-channel-networking)
-- [Login](https://www.broadcom.com/support/fibre-channel-networking)
-- [Terms of Service](https://www.broadcom.com/company/legal/terms-of-use)
-- [Privacy Policy](https://www.broadcom.com/company/legal/privacy/policy)
-- [Community](https://community.broadcom.com/t5/Fibre-Channel-SAN-Forums/bd-p/fibre)
-- [Blog](https://community.broadcom.com/landingpage/brocade-community)
-- [GitHub Organization](https://github.com/brocade)
-- [S D Ks](https://github.com/brocade/pyfos)
+- [Documentation](https://techdocs.broadcom.com/us/en/fibre-channel-networking.html)
+- [Getting started](https://techdocs.broadcom.com/us/en/fibre-channel-networking/fabric-os/fabric-os-rest-api/9-2-x/v26395730/v24190001.html)
+- [Support](https://www.broadcom.com/support/fibre-channel-networking)
 - [Changelog](https://www.broadcom.com/support/fibre-channel-networking/eol)
+- [Blog](https://community.broadcom.com/landingpage/brocade-community)
+- [Terms of service](https://www.broadcom.com/company/legal/terms-of-use)
+- [Privacy policy](https://www.broadcom.com/company/legal/privacy/policy)
+- [GitHub](https://github.com/brocade)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
-**URL:** https://apievangelist.com
+**Kin Score 42.9** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 42.2 |
+| Contract governance | 0.0 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 42.1 |
+
+**Agent readiness 19.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/brocade/](https://apis.io/providers/brocade/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Brocade: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/brocade/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
